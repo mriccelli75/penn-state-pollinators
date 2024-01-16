@@ -28,6 +28,7 @@ section {
 }
 .headline {
   font-size: 48px;
+  margin-bottom: 3rem;
 }
 .lead {
   font-family: var(--header);
@@ -254,4 +255,18 @@ section.research-spotlight a.nav-link {
   section.research-spotlight .gap-5 {
     gap: 0 !important;
   } 
+  .research-spotlight .border-container {
+    margin-top: 0;
+  }
+  .threats .border-container {
+    margin-top: 0;
+  }
+}
+@media screen and (min-width:1200px ) {
+  .justify-content-center {
+    justify-content: space-evenly;
+}
+}
+span.badge {
+  color: var(--primary);
 }
