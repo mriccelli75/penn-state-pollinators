@@ -255,9 +255,6 @@ section.research-spotlight a.nav-link {
   section.research-spotlight {
     padding: 75px;
   }
-  section.research-spotlight .gap-5 {
-    gap: 0 !important;
-  } 
   .research-spotlight .border-container {
     margin-top: 0;
   }
