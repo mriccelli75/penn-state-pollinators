@@ -1,0 +1,244 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;1,400&family=Roboto+Slab:wght@100;200;300;400;500;600;700&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto Slab', serif; */
+
+:root {
+  --header: 'Roboto Slab', serif;
+  --paragraph: 'Open Sans', sans-serif;
+  --paragraph-color: #333333;
+  --primary-blue: #1e407c; 
+  --primary-blue-tint: #dde6f7;
+  --dark-blue: #000321;
+  --orange: #f7931e;
+}
+h1,h2,h3,h4,h5,h6 {
+  font-family: var(--header);
+}
+section {
+  padding: 25px;
+}
+.headline {
+  font-size: 48px;
+}
+.lead {
+  font-family: var(--header);
+  font-weight: 300;
+  color: var(--primary-blue);
+  line-height: 1.6;
+}
+.border-container {
+  text-align: left;
+  padding-inline-start: 1rem;
+  border-left: 5px solid var(--orange);
+  margin-top: 4rem;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 900px;
+}
+
+.content {
+  margin: 0 auto;
+  margin-top: 2rem;
+  max-width: 900px;
+}
+.primary-orange {
+  color: var(--orange);
+}
+.primary-blue {
+  color: var(--primary-blue);
+}
+body {
+  line-height: 1.428571429;
+  font-family: var( --paragraph);
+  color: var(--paragraph-color);
+  font-size: 18px;
+}
+p {
+  font-size: 1.2rem;
+  line-height: 1.85rem;
+}
+.highlight {
+  display: inline;
+  padding: .25em 0;
+  background: var(--orange);
+  color: #ffffff;
+  box-shadow: .5em 0 0 var(--orange), -.5em 0 0 var(--orange);
+}
+.nav-item {
+  margin-inline: 1rem;
+}
+.nav-link, a {
+  color: var(--primary-blue);
+  font-family: var(--paragraph);
+}
+nav.navbar {
+  padding-block-start: 15px;
+  padding-block-end: 15px;
+}
+.navbar-logomark {
+  width: 225px;
+  height: auto;
+}
+.navbar-toggler {
+  border-radius: 0;
+}
+button.btn.btn-primary {
+  border-radius: 0;
+  outline: none;
+  padding-block-start: 0.75rem;
+  padding-block-end: 0.75rem;
+  padding-inline-start: 1rem;
+  padding-inline-end: 1rem;
+  transition: 0.3s;
+}
+.btn-primary:hover {
+  background: var(--dark-blue);
+}
+button.navbar-toggler {
+  border: none;
+}
+button.navbar-toggler:focus {
+  border: none;
+}
+.btn {
+  border: none;
+}
+.btn-primary {
+  background: var(--primary-blue);
+  font-family: var(--header);
+}
+.mast-img {
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  background-image:url("../images/humming-bird-flower-butterfly.jpg");
+  height: 500px;
+  align-self: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  align-items: center;
+  justify-content: center;
+  background-position-x: center;
+  background-position-y: center;
+}
+.main-content {
+  background-image: url(../images/bee-fade-bg.jpg);
+  align-self: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  align-items: center;
+  justify-content: center;
+  background-position-x: center;
+  background-position-y: center;
+}
+.main-content h2,
+.video-embed h2 {
+  font-family: var(--paragraph);
+}
+.stat-container {
+  max-width: 900px;
+  margin: auto;
+  margin-top: 3rem;
+}
+.stat-headline {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.stat-headline h1 {
+  font-size: 127px;
+  color: var(--primary-blue);
+}
+.stat-headline h3 {
+  display: flex;
+  align-items: center;
+  color: #1e407c94;
+  text-align: center;
+}
+span.text-small {
+  font-size: 4rem;
+}
+.video-embed {
+  background-color: var(--primary-blue-tint);
+  padding-block-end: 4rem;
+}
+.video-embed p {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3rem;
+}
+#video-embed .col-lg-12 {
+  position: relative;
+}
+
+
+/* .stat-headline:last-child h1 {
+  font-size: 3rem;
+}
+.stat-headline:last-child span.text-small {
+  font-size: 2rem;
+} */
+
+
+section.threats {
+  background-color: #FFFFFF;
+
+}
+section.research-spotlight {
+  background-color: var(--primary-blue-tint)
+}
+section.research-spotlight .nav-item {
+  margin-inline: 0;
+}
+section.research-spotlight a.nav-link {
+  font-size: 1.25rem;
+}
+.threats img {
+  border-left: 10px solid #e1e4e8;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  border-right: 10px solid #e1e4e8;
+}
+/* Form Styles */
+.form-container {
+  max-width: 900px;
+  margin: auto;
+}
+
+.form-label, 
+.form-check-label,
+.form-text {
+  font-family: var(--paragraph);
+  font-size: 1rem;
+  color: #8a8d8f;
+  margin-bottom: 0;
+}
+.form-control {
+  margin-top: 0.5rem;
+  height: 50px;
+  border: 1px solid #8a8d8f;
+}
+@media screen and (min-width:992px ) {
+  section.threats,
+  section.research-spotlight {
+    padding: 75px;
+  }
+  section.research-spotlight .gap-5 {
+    gap: 0 !important;
+  } 
+}
