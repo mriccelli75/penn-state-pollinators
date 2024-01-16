@@ -92,7 +92,7 @@ nav.navbar {
 .navbar-toggler {
   border-radius: 0;
 }
-button.btn.btn-primary {
+.btn.btn-primary {
   border-radius: 0;
   outline: none;
   padding-block-start: 0.75rem;
