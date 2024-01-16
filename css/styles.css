@@ -132,15 +132,28 @@ button.navbar-toggler:focus {
   background-position-y: center;
 }
 .main-content {
-  background-image: url(../images/bee-fade-bg.jpg);
+  background-image: url("../images/bee-fade-bg.jpg");
   align-self: center;
   background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
+  /* background-size: cover;
+  background-attachment: fixed; */
   align-items: center;
   justify-content: center;
   background-position-x: center;
   background-position-y: center;
+}
+@media screen and (min-width:768px) {
+  .main-content {
+    background-image: url("../images/bee-fade-bg.jpg");
+    align-self: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    align-items: center;
+    justify-content: center;
+    background-position-x: center;
+    background-position-y: center;
+  }
 }
 .main-content h2,
 .video-embed h2 {
