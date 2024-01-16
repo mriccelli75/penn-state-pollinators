@@ -270,3 +270,24 @@ section.research-spotlight a.nav-link {
 span.badge {
   color: var(--primary);
 }
+
+#footer {
+  color: #37423b;
+  font-size: 14px;
+  background: #eef0ef;
+}
+
+#footer .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: var(--primary-blue-tint);
+  color: #000;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
