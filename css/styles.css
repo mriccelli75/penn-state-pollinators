@@ -198,8 +198,11 @@ span.text-small {
 }
 #video-embed .col-lg-12 {
   position: relative;
+  text-align: center;
 }
-
+#video-embed .img-fluid {
+  max-width: 80%;
+}
 
 /* .stat-headline:last-child h1 {
   font-size: 3rem;
